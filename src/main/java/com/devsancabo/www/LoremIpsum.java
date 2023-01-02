@@ -21,7 +21,7 @@ public final class LoremIpsum {
     /**
      * Get a sentence of an arbitrary amount of words from the lorem ipsum text.
      * The words will start to loop around after 50.
-     * @param wordAmount he amount of words to generate.
+     * @param wordAmount the amount of words to generate.
      * @return a String containing the words, separated by space.
      */
     public static String getSentence(int wordAmount) {
@@ -103,7 +103,7 @@ public final class LoremIpsum {
 
     /**
      * Get a random sentence from the lorem ipsum text.
-     * The maximum length of the sentence is maxWords * 10
+     * The maximum character count of the sentence is maxWords * 10
      * @param  maxWords The max amount of words the sentence can have.
      * @return a String containing the words, separated by space.
      */
